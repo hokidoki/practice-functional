@@ -1,5 +1,2 @@
 const log = console.log;
-
-const a = [1
-
-]
+const clear = console.clear;
