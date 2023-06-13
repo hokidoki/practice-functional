@@ -64,6 +64,12 @@ const custom = {
 log([...custom]) //[3,2,1]
 for (n of custom) log(n) //3,2,1
 
+const a = [1, 2, 3]
 
+clear();
+console.log(a.reduce((acc, n) => {
+    console.log(acc);
+    return acc + n
+}))
 
 
